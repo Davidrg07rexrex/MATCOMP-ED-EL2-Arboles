@@ -1,0 +1,9 @@
+{
+  "tripletas": [
+    { "s": "persona:Albert Einstein", "p": "nace_en", "o": "lugar:Ulm" },
+    { "s": "persona:Johannes Kepler", "p": "nace_en", "o": "lugar:Ulm" },
+    { "s": "persona:Johannes Kepler", "p": "profesion", "o": "fisico" },
+    { "s": "persona:Max Planck", "p": "nace_en", "o": "lugar:Kiel" },
+    { "s": "persona:Max Planck", "p": "profesion", "o": "fisico" }
+  ]
+}

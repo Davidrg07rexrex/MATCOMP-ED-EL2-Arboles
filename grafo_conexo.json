@@ -1,0 +1,6 @@
+{
+  "tripletas": [
+    {"s": "A", "p": "conecta", "o": "B"},
+    {"s": "B", "p": "conecta", "o": "C"}
+  ]
+}
