@@ -146,4 +146,9 @@ public class GestorGrafo {
         }
         return null;//si no hay nadie
     }
+    public void añadirTripleta(String sujeto, String predicado, String objeto) {
+        grafo.putIfAbsent(sujeto, new ListaSimplementeEnlazada<Arista>());
+        grafo.get(sujeto).add(new Arista(predicado, objeto));
+        grafo.putIfAbsent(objeto, new ListaSimplementeEnlazada<Arista>());
+    }
 }

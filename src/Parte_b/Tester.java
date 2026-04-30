@@ -6,6 +6,7 @@ public class Tester {
         System.out.println("prueba 1: cargar y mostrar");
         GestorGrafo gEinstein = new GestorGrafo();
         gEinstein.cargarDesdeJSON("datos.json");//leemos el archivo
+        gEinstein.añadirTripleta("persona:Antonio", "nace_en", "lugar:Villarrubia de los Caballeros");
         gEinstein.mostrarGrafo();
         System.out.println();
 
